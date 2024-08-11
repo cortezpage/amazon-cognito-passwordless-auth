@@ -3,7 +3,7 @@ cdk.context.json
 *.d.ts
 cdk.out
 *.tgz
-dist
+# dist
 ./custom-auth/**/*
 ./lib/**/*
 ./react/**/*
