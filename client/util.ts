@@ -79,7 +79,7 @@ export function currentBrowserLocationWithoutFragmentIdentifier() {
 
 export function removeFragmentIdentifierFromBrowserLocation() {
   const { history } = configure();
-  history.pushState("", "", currentBrowserLocationWithoutFragmentIdentifier());
+  history.pushState({}, "", currentBrowserLocationWithoutFragmentIdentifier());
 }
 
 export function timeAgo(now: Date, historicDate?: Date) {
